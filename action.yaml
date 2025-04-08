@@ -1,0 +1,7 @@
+name: 'Action Repo'
+runs:
+  using: "composite"
+  steps:
+    - name: Trigger Workflow Dispatch Event
+      using: hexnickk/action-dep-repo@21bd8191620e571db48b757ab33fa2a56d185b78
+      

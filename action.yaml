@@ -3,5 +3,5 @@ runs:
   using: "composite"
   steps:
     - name: Trigger Workflow Dispatch Event
-      using: hexnickk/action-dep-repo@v1
+      uses: hexnickk/action-dep-repo@v1
       
